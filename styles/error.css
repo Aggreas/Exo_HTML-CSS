@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1420px;
+  width: 100%;
+  margin: 50px auto;
+  align-items: center;
+  box-sizing: border-box;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  color: #FF6060;
+  font-family: Montserrat;
+  font-size: 24px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 700px) {
+  header {
+    padding: 0 20px;
+    margin: 20px auto;
+  }
+  header > img {
+    width: 100px;
+  }
+  header nav {
+    gap: 10px;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 65px 0 30px;
+  margin-top: auto;
+}
+footer > svg * {
+  fill: white;
+}
+footer > p {
+  color: white;
+  font-family: Montserrat;
+}
+
+.error {
+  max-width: 1420px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-family: Montserrat;
+}
+.error h1 {
+  font-size: 180px;
+  color: #FF6060;
+  margin: 100px 0 0 0;
+}
+.error > p {
+  color: #FF6060;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+.error > a {
+  color: #FF6060;
+}
+@media screen and (max-width: 700px) {
+  .error > a {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=error.css.map */

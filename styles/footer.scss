@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 65px 0 30px;
+    margin-top: auto;
+
+    >svg * {
+        fill: white;
+    }
+
+    >p {
+        color: white;
+        font-family: Montserrat;
+    }
+}
